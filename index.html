@@ -1,135 +1,100 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel= "stylesheet" href= "style.css">
-        <title>Personal Portfolio</title>
-        <style> 
-        
-        body{
-        background-image: url(bear.jpeg);
-        background-repeat: repeat;
-        border: none;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        
-        </style>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Aero Mosley's Portfolio</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');</style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Aero <span> Mosley</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#resume" class="active">Resume</a>
+            <a href="wportfolio.html">Creative Portfolio</a>
+        </nav>
+    </header>
     
-    <body> 
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="home-left">
+            <h1>Hello! I'm <span>Aero!</span></h1>
+            <h3 class="text-animation"> I am a...  <span></span></h3>
+            <p>Aero Mosley is a rising sophomore majoring in computer science at Howard University who hails from Houston, Texas and is seeking experience in web development. In the classroom, they have become skilled in utilizing Python. Beyond of the classroom, they have delved into working with HTML and CSS to create captivating websites—like the one you’re on now! Mosley’s pursuits extend far beyond coding and into the creative sphere. They infuse their problem solving with innovative solutions and this passion for art has led to dabbling in social media management and entrepreneurial endeavors, most notably founding Clawed Muse, a nail business, in 2023. They are also considering pursuing a minor in electronic studio arts to further hone their skills in applying technology with visual communication. They are also dedicated to serving their community, exemplified by their involvement in Howard University’s Alternative Spring Break program, wherein they managed the database for the student led service-learning organization until its culminating trip of joining over 1,000 students to serve 20 communities around the nation over the spring break period. 
+                While not working on new features for their personal website, Aero Mosley enjoys cozying up with a good book or watching the latest horror flick.
+                </p>
 
-
-    <div style="background-color: white; height:1000px; width: 920px; margin: 0 auto; border: outset 5px #F8C8DC">
-    <table>
-    <tr>
-        <td style="padding: 5px">
-        <div style=" background-color: #987554; height: 20px; width: 404px; border:none;"> <b><p style="font-family:'Courier New', Courier, monospace; color: white; margin: 0 auto"> Aero Mosley</p> </b></div>
-        
-        <div style="background-color:#00000000; width: 396px; height: 255px; border: solid 2px #987554; margin-bottom: 5px; padding: 2px">
-            <img src="pfp.gif" style="float: left;" width="220px;" margin="5px">
-            <pre>
- 
- They/Them
-
- 19 years old
-
- Howard University '27
-
-
-
-
-
-
-
-
- Last Login: December 2023
- View my: Pics | Videos
-            </pre>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aero-mosley/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/anefertiti"><i class='bx bxl-github'></i></a>
             </div>
-        <div style="background-color: #00000000; height: 50px; width: 400px; border: solid 2px #987554; color: black; font-family:'Courier New', Courier, monospace; margin-bottom: 5px;">
-            <pre> <b>MySpace URL:</b>
- insert link here
-            </pre>
             </div>
+            <div class="home-right">
+            <div class="home-img"><img src=pic.jpg></div>
+            </div>
+    </section>
 
-        <div style=" background-color: #987554; height: 20px; width: 404px; border:none;"> <b><p style="display: flex; justify-content: center; align-items: center; font-family:'Courier New', Courier, monospace; color: white; margin: 0 auto"> Contacting Aero... </p></b> </div>
-            <div style="margin-bottom: 10px; height: 130px; width: 400px; border: solid 2px #987554; background-color: #00000000; display: flex; justify-content: center; align-items: center;">
-            <img src="myspace_content.gif">
+    <section class="resume" id="resume">
+        <h2 class="heading">Resume</h2>
+        <div class="resume-items">
+        <div class="resume-item">
+            <div class="resume-dot"></div>
+                <div class="resume-date">2023</div>
+                <div class="resume-content">
+                    <h3>Howard University</h3>
+                    <p>Bachelor of Computer Science</p>
+                    <p>Expected graduation: 2027</p>
+                </div>
+            
         </div>
-
-        <div style=" background-color: #987554; height: 20px; width: 404px; border:none;"> <b><p style="display: flex; justify-content: center; align-items: center; font-family:'Courier New', Courier, monospace; color: white; margin: 0 auto"> Aero's Details </p></b>
-            </div>
-        <div style="margin-bottom: 10px; height: 130px; width: 400px; border: solid 2px #987554; background-color: #00000000; "> 
-            <table class="detail">
-                <tr>
-                    <td class="left"> Major </td>
-                    <td class="right"> Computer Science </td>
-                </tr>
-                <tr>
-                <td class="left" > Coding Languages</td>
-                    <td class="right">Python, HTML/CSS</td>
-                </tr>
-                <tr>
-                    <td class="left"> CS Coursework</td>
-                    <td class="right">Past: Intro to Computer Science <br> Current: Computer Science 1: Python, Linux Lab</td>
-                </tr>
-                <tr>
-                    <td class="left"> Zodiac Sign</td>
-                    <td class="right">Scorpio</td>
-                </tr>
-                
-            </table>
-            </div>
-         <div style=" background-color: #987554; height: 20px; width: 404px; border:none;"> <b><p style="display: flex; justify-content: center; align-items: center; font-family:'Courier New', Courier, monospace; color: white; margin: 0 auto">Aero's Interests </p></b> </div>
-         <div style="margin-bottom: 10px; height: 185px; width: 400px; border: solid 2px #987554; background-color: #00000000;"> 
-            <table class="detail">
-                <tr>
-                <td class="left" > General</td>
-                    <td class="right";>Coding, astrology</td>
-                </tr>
-                <tr>
-                    <td class="left"> Music</td>
-                    <td class="right"> <b>Artists:</b> Erykah Badu, D'Angelo, TisaKorean, Drake, PND </td>
-                </tr>
-                <tr>
-                    <td class="left"> Books</td>
-                    <td class="right"> The Mara Dyer Trilogy by Michelle Hodkin <br> The Artists Way by Julia Cameron </td>
-                </tr>
-                <tr>
-                    <td class="left"> TV Shows</td>
-                    <td class="right"> Family Guy, Sgt Frog, Buffy the Vampire Slayer, Ghost Whisperer, House MD </td>
-                </tr>
-                <tr>
-                    <td class="left"> Movies</td>
-                    <td class="right"> Tusk, Entergalactic, Gone Girl, Heathers, Final Destination, Marriage Story,</td>
-                </tr>
-            </table>
-            </div>
-        </td>
+        <div class="resume-item">
+            <div class="resume-dot"></div>
+                <div class="resume-date">March 2024</div>
+                <div class="resume-content">
+                    <h3>Alternative Spring Break</h3>
+                    <h4><i>Extracurricular</i></h4>
+                    <ul>•   Assisted in creating and organizing forms and spreadsheets for easy onboarding of a large-scale trip throughout the planning, preparation, and execution stages.</ul>
+                    <ul>•	Participated actively in initiatives aiming to serve underrepresented communities both locally and at large.</ul>
+                </div>
+            
+        </div>
+        <div class="resume-item">
+            <div class="resume-dot"></div>
+                <div class="resume-date">November 2023</div>
+                <div class="resume-content">
+                    <h3>WHUR Food to Feed</h3>
+                    <h4><i>Volunteer</i></h4>
+                    <ul>•   Managed sign-in process for over 500 students to help combat food insecurity.</ul>
+                    <ul>•   Improved registration system to support multiple booths and queues at the same time through Google Sheets.</ul>
+                </div>
+            
+        </div>
+        <div class="resume-item">
+            <div class="resume-dot"></div>
+                <div class="resume-date">November 2023</div>
+                <div class="resume-content">
+                    <h3>Bison in Wonderland</h3>
+                    <h4><i>Volunteer</i></h4>
+                    <ul>•   Facilitated positive reinforcement workshops for XYZ students of Howard Middle School of Mathematics and Science.</ul>
+                    <ul>•   Designed and delivered curriculum on social/emotional skills such as truth and service.</ul>
+                </div>
+            
+        </div>
+        </div>
         
-        <td style="vertical-align: top; padding-top: 5px;">
-            <div style="width: 480px; height: 60px; background-color:#00000000; border: solid 2px black; display: flex; justify-content: center; align-items: center; font-size: 20px;"><b>Aero is in your extended network.</b>
-                </div>
-            <div style="width:480px; height: 15px; border:none; background-color:#00000000; display: flex; justify-content: space-between; align-items: center; margin: 5px;"> 
-                <a href="https://github.com/anefertiti" target="_blank" style="text-decoration: none; color:#D58A94"> GitHub</a>
-                 <a href="museum.html" target="_blank" style="text-decoration: none; color:#D58A94">Visit the Museum</a> 
-                 <a href="" style="text-decoration: none; color:#D58A94">Play a Game!</a>
-                </div>
-            <p style="background-color: #7793C2; color: #283347; font-family:'Courier New', Courier, monospace; font-weight: bolder; font-size: 18px;">Aero's Blurbs :) </p>
-            <p style="color: #283347; font-family:'Courier New', Courier, monospace; font-weight: bolder; font-size: 16px;">About Me:</p>
-            <p style="font-family:'Courier New', Courier, monospace;"> 
-                Hi, I’m Aero! Welcome to my website :) It was inspired by old web aesthetics and the personal websites you may have found while web surfing on GeoCities in the 90s. For me, this webpage serves a dual function of firstly displaying my progress as a programmer and secondly being a space to showcase my interests and personal aesthetics. I hope you enjoy your stay!  </p>
-
-
-
-
-        </td>
-       
-
-    </tr>
-    </table>
-    </div>
-
     
-     </body>
-   
+        
+
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
